@@ -1,0 +1,17 @@
+---
+server:
+  port: 8761
+ 
+eureka:
+  client:
+    registerWithEureka: yes
+    fetchRegistry: yes
+    serviceUrl:
+      defaultZone: http://10.1.2.32:8761/eureka/,http://10.1.2.33:8761/eureka/
+  server:
+    waitTimeInMsWhenSyncEmpty: 0
+  
+logging:
+  level:
+    com.netflix: 'WARN'
+    org.springframework.cloud: 'WARN'
