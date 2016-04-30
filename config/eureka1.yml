@@ -4,8 +4,10 @@ server:
  
 eureka:
   client:
-    registerWithEureka: false
-    fetchRegistry: false
+    registerWithEureka: yes
+    fetchRegistry: yes
+	useDnsForFetchingServiceUrls: true
+	preferSameZoneEureka: true
   server:
     waitTimeInMsWhenSyncEmpty: 0
   
