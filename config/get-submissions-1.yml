@@ -1,7 +1,7 @@
 ---
 spring:
   datasource:
-    url: jdbc:oracle:thin:@//localhost:1521/XE
+    url: jdbc:oracle:thin:@//10.0.2.2:1521/XE
     username: hr
     password: welcome1
     driverClassName: oracle.jdbc.driver.OracleDriver
@@ -14,7 +14,7 @@ spring:
       hibernate.format_sql: true
 
 oracle:
-  url: jdbc:oracle:thin:@//localhost:1521/XE
+  url: jdbc:oracle:thin:@//10.0.2.2:1521/XE
   username: hr
   password: welcome1
 
@@ -24,4 +24,4 @@ server:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:8761/eureka/
+      defaultZone: http://10.1.2.32:8761/eureka/,http://10.1.2.33:8761/eureka/
