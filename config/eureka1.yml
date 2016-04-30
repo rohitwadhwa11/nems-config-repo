@@ -6,8 +6,10 @@ eureka:
   client:
     registerWithEureka: yes
     fetchRegistry: yes
-	useDnsForFetchingServiceUrls: true
-	preferSameZoneEureka: true
+    useDnsForFetchingServiceUrls: true
+    preferSameZoneEureka: true
+    serviceUrl:
+      defaultZone: http://10.1.2.32:8761/eureka/,http://10.1.2.32:8761/eureka/
   server:
     waitTimeInMsWhenSyncEmpty: 0
   
