@@ -13,6 +13,10 @@ spring:
     properties:
       hibernate.format_sql: true
 
+oracle:
+  url: jdbc:oracle:thin:@//localhost:1521/XE
+  username: hr
+  password: welcome1
 
 server:
   port: 9005
