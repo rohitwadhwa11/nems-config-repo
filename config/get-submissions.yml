@@ -22,6 +22,8 @@ server:
   port: 9005
 
 eureka:
+  instance:
+    preferIpAddress: true
   client:
     serviceUrl:
       defaultZone: http://10.1.2.32:8761/eureka/,http://10.1.2.33:8761/eureka/
