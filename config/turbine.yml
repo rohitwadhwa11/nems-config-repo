@@ -1,0 +1,19 @@
+---
+server:
+  port: 8989
+
+management:
+  port: 8990
+
+logging:
+  level:
+    root: INFO
+    com.netflix.discovery: 'OFF'
+    # org.springframework.integration: DEBUG
+
+eureka:
+  instance:
+    preferIpAddress: true
+  client:
+    serviceUrl:
+      defaultZone: http://10.1.2.32:8761/eureka/,http://10.1.2.33:8761/eureka/
