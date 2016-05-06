@@ -12,9 +12,20 @@ endpoints:
 zuul:
   ignoredServices: "*"
   routes:
-    productcomposite:
+    sub:
       path: /sub/**
 #      stripPrefix: false
+
+ribbon:
+  eureka:
+    enabled: false
+	
+eureka:
+  instance:
+    preferIpAddress: true
+  client:
+    serviceUrl:
+      defaultZone: http://10.1.2.32:8761/eureka/,http://10.1.2.33:8761/eureka/
 
 server:
   port: 9765
