@@ -2,11 +2,11 @@ info:
   component: Zuul Server
 
 zuul:
-  ignoredServices: "*"
   routes:
-    sub:
-      path: /submissions/**
-#      stripPrefix: false
+    subs:
+      path: /subs/**
+      serviceId: get-submissions
+      
 
 ribbon:
   eureka:
