@@ -6,6 +6,7 @@ zuul:
     sub:
       path: /sub/**
       serviceId: get-submissions
+      stripPrefix: false
       
 
 ribbon:
