@@ -5,7 +5,7 @@ zuul:
   ignoredServices: "*"
   routes:
     sub:
-      path: /sub/**
+      path: /submissions/**
 #      stripPrefix: false
 
 ribbon:
