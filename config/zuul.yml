@@ -12,7 +12,7 @@ ribbon:
   eureka:
     enabled: false
 
-users:
+subs:
   ribbon:
     listOfServers: http://10.1.2.41:9005/sub/,http://10.1.2.42:9005/sub/
     
