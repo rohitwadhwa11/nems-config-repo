@@ -10,8 +10,8 @@ zuul:
 
 ribbon:
   eureka:
-    enabled: false
-	
+    enabled: true
+    
 eureka:
   instance:
     preferIpAddress: true
