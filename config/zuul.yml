@@ -3,8 +3,8 @@ info:
 
 zuul:
   routes:
-    subs:
-      path: /subs/**
+    sub:
+      path: /sub/**
       serviceId: get-submissions
       
 
@@ -12,7 +12,7 @@ ribbon:
   eureka:
     enabled: false
 
-subs:
+sub:
   ribbon:
     listOfServers: http://10.1.2.41:9005/sub/,http://10.1.2.42:9005/sub/
     
