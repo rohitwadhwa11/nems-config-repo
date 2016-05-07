@@ -18,6 +18,14 @@ eureka:
     fetchRegistry: yes
     serviceUrl:
       defaultZone: http://10.1.2.32:8761/eureka/,http://10.1.2.33:8761/eureka/
+      
+ ribbon:
+   eureka:
+    enabled: false
+
+ users:
+  ribbon:
+    listOfServers: 10.1.2.41,10.1.2.42
 
 server:
   port: 9766
