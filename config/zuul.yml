@@ -20,7 +20,7 @@ eureka:
       defaultZone: http://10.1.2.32:8761/eureka/,http://10.1.2.33:8761/eureka/
 
 server:
-  port: 9765
+  port: 9766
 
 logging:
   level:
