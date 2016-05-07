@@ -8,7 +8,9 @@ zuul:
       serviceId: get-submissions
       stripPrefix: false
       
-    
+ribbon:
+  ConnectTimeout: 30000
+  ReadTimeout: 50000
     
 eureka:
   instance:
