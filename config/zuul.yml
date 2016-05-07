@@ -9,6 +9,8 @@ zuul:
 ribbon:
   ConnectTimeout: 30000
   ReadTimeout: 50000
+  MaxAutoRetries: 1
+  MaxAutoRetriesNextServer: 2
     
 eureka:
   instance:
