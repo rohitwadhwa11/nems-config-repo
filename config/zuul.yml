@@ -3,7 +3,18 @@ info:
 
 zuul:
   routes:
-    get-submissions: /sub/**
+    get-submissions:
+      path: /sub/**
+      serviceId: get-submissions
+      
+ribbon:
+  eureka:
+    enabled: false
+
+get-submissions:
+  ribbon:
+    listOfServers: 10.1.2.41,10.1.2.42
+    
     
       
 ribbon:
