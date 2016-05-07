@@ -3,10 +3,8 @@ info:
 
 zuul:
   routes:
-    get-submissions:
-      path: /submissions/**
-      serviceId: get-submissions
-      stripPrefix: false
+    get-submissions: /submissions/**
+    
       
 ribbon:
   ConnectTimeout: 30000
