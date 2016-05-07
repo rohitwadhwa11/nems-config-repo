@@ -14,14 +14,10 @@ ribbon:
 get-submissions:
   ribbon:
     listOfServers: 10.1.2.41,10.1.2.42
-    
-    
-      
-ribbon:
-  ConnectTimeout: 30000
-  ReadTimeout: 50000
-  MaxAutoRetries: 1
-  MaxAutoRetriesNextServer: 2
+    ConnectTimeout: 30000
+    ReadTimeout: 50000
+    MaxAutoRetries: 1
+    MaxAutoRetriesNextServer: 2
     
 eureka:
   instance:
