@@ -3,7 +3,7 @@ info:
 
 zuul:
   routes:
-    submissions:
+    get-submissions:
       path: /submissions/**
       serviceId: get-submissions
       stripPrefix: false
