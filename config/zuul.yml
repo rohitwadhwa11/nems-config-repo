@@ -25,7 +25,7 @@ ribbon:
 
 users:
   ribbon:
-    listOfServers: 10.1.2.41,10.1.2.42
+    listOfServers: http://10.1.2.41:9005,http://10.1.2.42:9005
 
 server:
   port: 9766
