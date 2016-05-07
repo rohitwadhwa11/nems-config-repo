@@ -19,11 +19,11 @@ eureka:
     serviceUrl:
       defaultZone: http://10.1.2.32:8761/eureka/,http://10.1.2.33:8761/eureka/
       
- ribbon:
-   eureka:
+ribbon:
+  eureka:
     enabled: false
 
- users:
+users:
   ribbon:
     listOfServers: 10.1.2.41,10.1.2.42
 
