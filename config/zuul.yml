@@ -13,7 +13,7 @@ ribbon:
 
 get-submissions:
   ribbon:
-    listOfServers: 10.1.2.41,10.1.2.42
+    listOfServers: 10.1.2.41:9005,10.1.2.42:9005
     ConnectTimeout: 30000
     ReadTimeout: 50000
     MaxAutoRetries: 1
