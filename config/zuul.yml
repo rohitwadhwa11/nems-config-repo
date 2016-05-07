@@ -3,7 +3,7 @@ info:
 
 zuul:
   routes:
-    get-submissions: /submissions/**
+    get-submissions: /sub/**
     
       
 ribbon:
