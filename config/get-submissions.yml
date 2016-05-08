@@ -37,4 +37,8 @@ spring:
           defaultBrokerPort: 9092
           zkNodes: 10.1.2.20
           defaultZkPort: 2181
+      bindings:
+        output:
+          destination: test4
+          content-type: application/json
           
