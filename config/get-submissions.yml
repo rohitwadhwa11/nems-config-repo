@@ -5,6 +5,19 @@ spring:
     username: hr
     password: welcome1
     driverClassName: oracle.jdbc.driver.OracleDriver
+  cloud:
+    stream:
+      kafka:
+        binder:
+          brokers: 10.1.2.20
+          defaultBrokerPort: 9092
+          zkNodes: 10.1.2.20
+          defaultZkPort: 2181
+          zkConnectionTimeout: 100000
+      bindings:
+        output:
+          destination: test4
+          content-type: application/json
 
   jpa:
     database-platform: org.hibernate.dialect.Oracle10gDialect
@@ -27,19 +40,4 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://10.1.2.32:8761/eureka/,http://10.1.2.33:8761/eureka/
-      
-spring:
-  cloud:
-    stream:
-      kafka:
-        binder:
-          brokers: 10.1.2.20
-          defaultBrokerPort: 9092
-          zkNodes: 10.1.2.20
-          defaultZkPort: 2181
-          zkConnectionTimeout: 100000
-      bindings:
-        output:
-          destination: test4
-          content-type: application/json
           
