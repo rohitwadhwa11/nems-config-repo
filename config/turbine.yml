@@ -1,9 +1,9 @@
 ---
 server:
-  port: 89890
+  port: 8989
 
 management:
-  port: 89900
+  port: 8990
 
 logging:
   level:
