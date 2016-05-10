@@ -1,4 +1,6 @@
----
+info:
+  component: Turbine Server
+  
 server:
   port: 8989
 
@@ -15,6 +17,8 @@ eureka:
   instance:
     preferIpAddress: true
   client:
+    registerWithEureka: yes
+    fetchRegistry: yes
     serviceUrl:
       defaultZone: http://10.1.2.32:8761/eureka/,http://10.1.2.33:8761/eureka/
       
