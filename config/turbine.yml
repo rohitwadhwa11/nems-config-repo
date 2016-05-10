@@ -24,4 +24,4 @@ eureka:
       
 turbine:
   appConfig: get-submissions
-  clusterNameExpression: metadata['submissions']
+  clusterNameExpression: 'default'
