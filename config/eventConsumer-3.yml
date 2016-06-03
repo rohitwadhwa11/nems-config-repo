@@ -12,7 +12,7 @@ spring:
       bindings:
         input:
           destination: xdtest
-          group: jrnlEventConsumer
+          group: jrnlEventConsumerForReporting
           content-type: application/json
           consumer:
             partitioned: true
