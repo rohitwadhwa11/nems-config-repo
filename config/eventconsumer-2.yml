@@ -18,4 +18,4 @@ spring:
             partitioned: true
 
 server:
-  port: 9007
+  port: 9011
