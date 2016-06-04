@@ -2,6 +2,8 @@
 spring:
   cloud:
     stream:
+      instanceCount: 2
+      instanceIndex: 0
       kafka:
         binder:
           brokers: 10.1.2.71
