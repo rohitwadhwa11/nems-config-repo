@@ -13,7 +13,7 @@ spring:
           zkConnectionTimeout: 1000000
       bindings:
         input:
-          destination: xdtest
+          destination: xd
           group: jrnlEventConsumer
           content-type: application/json
           consumer:
