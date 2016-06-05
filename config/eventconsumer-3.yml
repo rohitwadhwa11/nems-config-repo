@@ -15,7 +15,7 @@ spring:
           group: jrnlEventConsumerForReporting
           content-type: application/json
           consumer:
-            partitioned: true
+            partitioned: false
 
 server:
   port: 9012
