@@ -11,11 +11,11 @@ spring:
           zkConnectionTimeout: 1000000
       bindings:
         output:
-          destination: xd
+          destination: xdnew
           content-type: application/json
           producer:
             partitionKeyExpression: payload.jrnl
-            partitionCount: 20
+            partitionCount: 5
 
 server:
   port: 9005
