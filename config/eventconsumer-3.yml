@@ -11,7 +11,7 @@ spring:
           zkConnectionTimeout: 1000000
       bindings:
         input:
-          destination: xd
+          destination: xdnew
           group: jrnlEventConsumerForReporting
           content-type: application/json
           consumer:
