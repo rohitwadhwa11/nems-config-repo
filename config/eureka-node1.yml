@@ -6,10 +6,10 @@ eureka:
   instance:
     preferIpAddress: true
   client:
-    registerWithEureka: yes
-    fetchRegistry: yes
+    registerWithEureka: false
+    fetchRegistry: false
     serviceUrl:
-      defaultZone: http://10.1.2.33:8761/eureka/
+      defaultZone: http://localhost:8761/eureka/
   server:
     waitTimeInMsWhenSyncEmpty: 0
   
