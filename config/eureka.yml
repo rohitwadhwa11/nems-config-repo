@@ -9,7 +9,7 @@ eureka:
     registerWithEureka: yes
     fetchRegistry: yes
     serviceUrl:
-      defaultZone: http://10.1.2.32:8761/eureka/,http://10.1.2.33:8761/eureka/
+      defaultZone: http://10.1.2.92:8761/eureka/,http://10.1.2.33:8761/eureka/
   server:
     waitTimeInMsWhenSyncEmpty: 0
   
